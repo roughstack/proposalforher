@@ -1,0 +1,199 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,500;1,900&display=swap');
+*{
+    font-family: 'Poppins',cursive;
+}
+body{
+    color: azure;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+}
+.greetings{
+    font-size: 3rem;
+    font-weight: 900;
+}
+.greetings > span{
+    animation: glow 2.5s ease-in-out infinite;
+}
+@keyframes glow{
+    0%, 100%{
+        color: #fff;
+        text-shadow: 0 0 12px #39c6d6, 0 0 50px #39c6d6, 0 0 100px #39c6d6;
+    }
+    10%, 90%{
+        color: #111;
+        text-shadow: none;
+    }
+}
+.greetings > span:nth-child(1){
+    animation-delay: .2s ;
+}
+.greetings > span:nth-child(2){
+    animation-delay: .4s ;
+}
+.greetings > span:nth-child(3){
+    animation-delay: .6s;
+}
+.greetings > span:nth-child(4){
+    animation-delay: .8s;
+}
+.greetings > span:nth-child(5){
+    animation-delay: .2s ;
+}
+.description{
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+}
+
+.buttons {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.btn {
+    background-color: #e47891ca;
+    color: #ffffff;
+    padding: 15px 32px;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border: none;
+    border-radius: 12px;
+    transition: background-color 0.3s ease;
+}
+#yesButton {
+    position: absolute;
+    
+}
+
+@media screen and (max-width:574px){
+    .greetings{
+        display: block;
+        font-size: 3rem;
+        font-weight: 500;
+        text-align: center;
+    }
+    .description{
+        font-size: 1rem;
+    }
+    
+    .button a{
+        font-size: .5rem;
+    }
+}
+
+/*2*/
+.greetings2{
+    font-size: 3rem;
+    font-weight: 900;
+}
+.greetings2 > span{
+    animation: glow 2.5s ease-in-out infinite;
+}
+@keyframes glow{
+    0%, 100%{
+        color: #fff;
+        text-shadow: 0 0 12px #39c6d6, 0 0 50px #39c6d6, 0 0 100px #39c6d6;
+    }
+    10%, 90%{
+        color: #111;
+        text-shadow: none;
+    }
+}
+.greetings2 > span:nth-child(1){
+    animation-delay: .5s ;
+}
+.greetings2 > span:nth-child(2){
+    animation-delay: .6s ;
+}
+.greetings2 > span:nth-child(3){
+    animation-delay: .7s;
+}
+
+/*3*/
+.greetings3{
+    font-size: 3rem;
+    font-weight: 900;
+}
+.greetings3 > span{
+    animation: glow 2.5s ease-in-out infinite;
+}
+@keyframes glow{
+    0%, 100%{
+        color: #fff;
+        text-shadow: 0 0 12px #39c6d6, 0 0 50px #39c6d6, 0 0 100px #39c6d6;
+    }
+    10%, 90%{
+        color: #111;
+        text-shadow: none;
+    }
+}
+.greetings3 > span:nth-child(1){
+    animation-delay: .8s ;
+}
+
+/*4*/
+.greetings4{
+    font-size: 3rem;
+    font-weight: 900;
+}
+.greetings4 > span{
+    animation: glow 2.5s ease-in-out infinite;
+}
+@keyframes glow{
+    0%, 100%{
+        color: #fff;
+        text-shadow: 0 0 12px #39c6d6, 0 0 50px #39c6d6, 0 0 100px #39c6d6;
+    }
+    10%, 90%{
+        color: #111;
+        text-shadow: none;
+    }
+}
+.greetings4 > span:nth-child(1){
+    animation-delay: .9s ;
+}
+.greetings4 > span:nth-child(2){
+    animation-delay: 1s ;
+}
+.greetings4 > span:nth-child(3){
+    animation-delay: 1.1s;
+}
+.greetings4 > span:nth-child(4){
+    animation-delay: 1.2s;
+}
+.greetings4 > span:nth-child(5){
+    animation-delay: 1.3s ;
+}
+
+/*5*/
+.greetings5{
+    font-size: 3rem;
+    font-weight: 900;
+}
+.greetings5 > span{
+    animation: glow 2.5s ease-in-out infinite;
+}
+@keyframes glow{
+    0%, 100%{
+        color: #fff;
+        text-shadow: 0 0 12px #39c6d6, 0 0 50px #39c6d6, 0 0 100px #39c6d6;
+    }
+    10%, 90%{
+        color: #111;
+        text-shadow: none;
+    }
+}
+.greetings5 > span:nth-child(1){
+    animation-delay: 1.4s ;
+}
