@@ -307,10 +307,12 @@
       </div>
     </div>
     
-    <audio hidden autoplay loop>
-      <source src="flowers.mp3" type="audio/mpeg">
-  </audio>
-
+    <audio id="my_audio" src="flowers.mp3" loop="loop"></audio>
+    <script>
+        window.onload = function() {
+    document.getElementById("my_audio").play();
+}
+    </script>
     <script src="main.js"></script>
   </body>
 </html>
